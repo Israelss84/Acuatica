@@ -153,15 +153,15 @@
     margin-left: 0px;
     color: #000;
 }
-.header-area.stick {
-    padding: 0;
+.stick {
+    /* padding: 0; */
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 9999;
+    /* z-index: 9999;
     background: rgba(255, 255, 255, 0.95);
     -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-            animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;      
+            animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;       */
 }
 .as-mainwrapper.wrapper-boxed .header-area.stick {width: 1200px;}
 /* .stick .logo{padding: 15px 0} */

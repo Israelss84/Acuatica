@@ -29,10 +29,12 @@ Design and Developed by: Devitems
 -------------------------------------- */  
     $(window).on('scroll',function() {    
        var scroll = $(window).scrollTop();
-       if (scroll < 245) {
-        $(".sticker").removeClass("stick");
-       }else{
-        $(".sticker").addClass("stick");
+       const topnav = $('#topnav').height();       
+       if (scroll < topnav) {
+        $('#topnav').height(topnav);
+        $(".main-header").removeClass("stick");
+       }else{        
+        $(".main-header").addClass("stick");
        }
     });
 	
