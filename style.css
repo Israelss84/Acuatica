@@ -1571,12 +1571,12 @@ width: 50%;
 }
 
 .pano1{
-    background: url('images/contact1.jpg');
+    background: url('images/contact/contact1.jpg');
     background-size: cover;
     background-position-x: right;
 }
 .pano2{
-    background: url('images/contact2.jpg');
+    background: url('images/contact/contact2.jpg');
     background-size: cover;
     background-position-x: right;
 }

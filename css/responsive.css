@@ -88,7 +88,7 @@
     .appoint-right{padding-left: 20px; padding-right: 20px;}
     .logo {text-align: center; padding: 6px !important;}
     .logo img{
-        width: 100px;
+        width: 90px;
     }
   
     .appoint-right h2 {font-size: 35px}
@@ -239,10 +239,11 @@
         height: auto;
     }
     .accordion .card-header .card-left {
-        margin-bottom: 5px;
+        /* margin-bottom: 5px; */
     }
     .accordion .card-header .card-right i.hover {
-        top: 41px;
+        /* top: 41px; */
+        right: 10px;
     }
     .banner-content-wrapper,
     .banner-content {
@@ -251,8 +252,31 @@
     .register-form .submit {
         display: block;
         width: 100%;
-    }  
-    
+    } 
+    .owl-item.active .slide-content h3{
+        font-size: 2em;   
+    }
+    .owl-item.active .slide-content h1, .home-banner-content h1{
+        font-size: 3em;        
+        line-height: 40px;
+    }
+
+    .container{
+        width: auto;
+    }
+    .benefits-area h2, .testimonial-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .accordion .card-header .card-left {
+        font-size: 12px;
+    }
+    .accordion .card-header .btn-link {
+        padding: 10px ;
+    }
+    .class-left {
+        padding: 20px;
+    }
     
 }
 
@@ -304,6 +328,9 @@
     }
     .register-area .container{
         width: auto;
+    }
+    .owl-item.active .slide-content h1, .home-banner-content h1{
+        font-size: 2.5em;
     }
     
 }
