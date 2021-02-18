@@ -270,7 +270,9 @@
         <script src="js/waypoints.min.js"></script>   		
         <script src="js/main.js"></script>  
         
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkKawIht4fao__IdqYpGD6uSif_bAWdw4&callback=initMap&libraries=&v=weekly" async></script>
+        <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkKawIht4fao__IdqYpGD6uSif_bAWdw4&callback=initMap&libraries=&v=weekly" async></script> -->
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkKawIht4fao__IdqYpGD6uSif_bAWdw4&callback=initMap"
+        type="text/javascript"></script>
         <script>
             function initMap() {
                 map = new google.maps.Map(document.getElementById("map1"), {
