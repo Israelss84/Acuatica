@@ -1,9 +1,7 @@
-/*
-Template:  Swimmer-Swimming School HTML Template
-Author: author name
-Version: 1
-Design and Developed by: Devitems
-*/
+/* -----------------------------------
+Description: Sitio desarrollado para Acuatica Marlines
+Author: Israel Sánchez
+-----------------------------------------------------------------------------------*/
 /*================================================
 [  Table of contents  ]
 ================================================
